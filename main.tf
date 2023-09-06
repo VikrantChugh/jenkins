@@ -9,7 +9,7 @@ terraform {
 
 # Configure the AWS Provider
 provider "aws" {
-  region = "ap-south-1"
+  region = "us-east-1"
 }
 resource "aws_instance" "example_server" {
   ami           = "ami-051f7e7f6c2f40dc1"
