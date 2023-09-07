@@ -9,12 +9,12 @@ terraform {
 
 # Configure the AWS Provider
 provider "aws" {
-  region = "us-east-1"
+  region = "ap-south-1"
 }
 resource "aws_instance" "example_server" {
-  ami           = "ami-051f7e7f6c2f40dc1"
+  ami           = "ami-06f621d90fa29f6d0"
   instance_type = "t2.micro"
-  subnet_id = "subnet-0129d612b8d2e83ec"
+  subnet_id = "subnet-0962069167a59d185"
 
   tags = {
     Name = "vikrant"
